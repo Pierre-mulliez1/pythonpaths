@@ -1,3 +1,10 @@
+"""
+IE titanic utls
+"""
+
+__version__ = "0.1.0"
+
+
 def tokenize(text):
     print("splitted")
     return text.split()
