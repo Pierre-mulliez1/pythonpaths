@@ -11,3 +11,8 @@ description-file = "READme.md"
 requires = [
     "pandas"
 ]
+
+[tool.flit.metadata.requires-extra]
+dev = [
+"black"
+]
