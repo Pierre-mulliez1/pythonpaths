@@ -17,8 +17,8 @@ def tokenize(lis, lower = "F"):
         return l
     
     text = listToString(lis)
-    if lis == "T":
-        lis.lower()
+    if lower == "T":
+        lis = lis.lower()
     
     # select directly the first element of system.arg
     return lis.split()
