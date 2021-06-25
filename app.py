@@ -21,5 +21,10 @@ def do_tokenize():
     
     
 if __name__ == "main":
-    app.run()
+    import os
+    port = int(os.environ["PORT"])
+    #auto run on heroku
+    app.run(host="0.0.0.0", port = port)
+    
+#export port = 3000
 
