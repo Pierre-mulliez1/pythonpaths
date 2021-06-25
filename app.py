@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return 'Hello Pierre'
+    return {"message":'Hello Pierre'}
 
  #if get no responce with sentence returns empty
 @app.route("/toke")

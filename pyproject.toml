@@ -11,6 +11,8 @@ description-file = "READme.md"
 requires = [
     "pandas",
     "nltk"
+    # ,"flask"
+    #We will use requirement.txt to do so 
 ]
 
 [tool.flit.metadata.requires-extra]

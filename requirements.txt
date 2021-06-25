@@ -1,0 +1,4 @@
+#Install current directory
+. 
+
+flask
