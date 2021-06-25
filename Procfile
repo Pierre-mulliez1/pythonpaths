@@ -1,1 +1,1 @@
-wev: flask run
+wev: flask run --port $PORT
