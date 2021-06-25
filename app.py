@@ -18,4 +18,8 @@ def do_tokenize():
         return str(tokenize(sentence,lower=lower))
     except ValueError:
         return "[]"
+    
+    
+if __name__ == "main":
+    app.run()
 
