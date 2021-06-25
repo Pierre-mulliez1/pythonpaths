@@ -1,0 +1,1 @@
+wev: flask run
