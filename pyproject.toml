@@ -9,8 +9,7 @@ author-email = "pierremulliez@student.ie.edu"
 classifiers = [ "License :: OSI Approved :: MIT License",]
 description-file = "READme.md"
 requires = [
-    "pandas",
-    "nltk"
+    "pandas"
     # ,"flask"
     #We will use requirement.txt to do so 
 ]
